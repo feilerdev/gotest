@@ -1,2 +1,4 @@
 summary,description,reporter,issue type
-test,"test, line: 25",tttd,remove
+td-design,"td-design, line: 25",tttd,Remove info logs
+td-quality,"td-quality, line: 33",tttd,Add test for this
+td-quality | Important.,"td-quality | Important., line: 10",tttd,Add test -
