@@ -22,7 +22,7 @@ func main() {
 	}
 	defer conn.Close()
 
-	// TODO: remove > test
+	// TODO: Remove info logs > td-design
 	logger.Println("test")
 
 	publisher, err := rabbitmq.NewPublisher(conn)
@@ -30,6 +30,7 @@ func main() {
 		logger.Fatal(err)
 	}
 
+	// TODO(alexandre): Add test for this > td-quality
 	pushMessageService := &services.PushMessageService{
 		PushMessageService: &message.PushMessageService{
 			Publisher: publisher,
