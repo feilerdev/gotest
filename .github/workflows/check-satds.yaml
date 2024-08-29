@@ -6,4 +6,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Extract SATDs to CSV
-      uses: feilerdev/tttd@v0.1.1
+      uses: feilerdev/tttd@v0.1.2
