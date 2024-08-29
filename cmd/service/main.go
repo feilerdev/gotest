@@ -22,6 +22,9 @@ func main() {
 	}
 	defer conn.Close()
 
+	// TODO: remove > test
+	logger.Println("test")
+
 	publisher, err := rabbitmq.NewPublisher(conn)
 	if err != nil {
 		logger.Fatal(err)
