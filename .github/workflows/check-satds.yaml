@@ -1,0 +1,9 @@
+name: Extract SATDs to CSV
+on: [push]
+jobs:
+  extract-satds-to-csv:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Extract SATDs to CSV
+      uses: feilerdev/tttd@v0.1
