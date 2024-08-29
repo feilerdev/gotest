@@ -5,5 +5,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Extract SATDs to CSV
-      uses: feilerdev/tttd@v0.1.3
+    - name: Run Technical Debt Analysis 
+      uses: feilerdev/tttd@v0.1.3.1
+    - name: Commit results
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Add technical debt analysis results" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
