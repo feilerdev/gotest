@@ -5,6 +5,7 @@ import "twitch_chat_analysis/domain/vos"
 type ListMessageService struct {
 }
 
+// TODO: test new
 type ListMessageInput struct {
 	Message string
 }
