@@ -1,2 +1,4 @@
 summary,description,reporter,issue type
-test,"test, line: 25",tttd,remove
+TODO get params,"TODO get params | file:message.go, line: 14",tttd,
+remove,"remove | file:main.go, line: 25",tttd,
+test new,"test new | file:list_messages.go, line: 8",tttd,
