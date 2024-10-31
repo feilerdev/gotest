@@ -1,4 +1,6 @@
 summary,description,reporter,issue type
 TODO get params,"TODO get params | file:message.go, line: 14",tttd,
-remove,"remove | file:main.go, line: 25",tttd,
+Remove info logs,"Remove info logs | file:main.go, line: 25",tttd,
+Add test for this,"Add test for this | file:main.go, line: 33",tttd,
 test new,"test new | file:list_messages.go, line: 8",tttd,
+Add test,"Add test | file:logger.go, line: 10",tttd,td-quality
