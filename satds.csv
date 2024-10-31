@@ -1,6 +1,6 @@
 summary,description,reporter,issue type
-TODO get params,"TODO get params | file:message.go, line: 14",tttd,
-Remove info logs,"Remove info logs | file:main.go, line: 25",tttd,
-Add test for this,"Add test for this | file:main.go, line: 33",tttd,
-test new,"test new | file:list_messages.go, line: 8",tttd,
-Add test,"Add test | file:logger.go, line: 10",tttd,td-quality
+TODO get params,"TODO get params | file:/github/workspace/cmd/reports/api/message.go/message.go, line: 14",,
+Remove info logs,"Remove info logs | file:/github/workspace/cmd/service/main.go/main.go, line: 25",,
+Add test for this,"Add test for this | file:/github/workspace/cmd/service/main.go/main.go, line: 33",alexandre,
+test new,"test new | file:/github/workspace/domain/services/list_messages.go/list_messages.go, line: 8",,
+Add test,"Add test | file:/github/workspace/extensions/telemetrygt/logger.go/logger.go, line: 10",name.surname,td-quality
